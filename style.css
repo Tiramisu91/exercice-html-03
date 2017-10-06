@@ -1,0 +1,90 @@
+header {
+  background-color: lightblue;
+  width: 100%;
+  height: 150px;
+  font-family: "comic sans ms";
+}
+
+.header * {
+  float: left;
+}
+
+.header {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  position: absolute;
+  right: 600px;
+  font-family: garamond;
+}
+
+#img1 {
+
+  height: 15vh;
+  width: 15vh;
+}
+
+#img2 {
+
+  height: 15vh;
+  width: 15vh;
+
+}
+
+.corps {
+  background-image: url("http://meche.mit.edu/sites/default/files/styles/hero/public/slides/Research%20Oceans.jpg?itok=okSrE16D");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 750px;
+  margin-top: 0px;
+  font-family: comic sans ms;
+}
+
+.citation {
+  float: right;
+  font-style: italic;
+  color: silver;
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  right: 10px;
+}
+
+.description {
+  color: white;
+  border: 1px solid white;
+  width: 350px;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  padding: 5px;
+  text-align: justify;
+  font-family: caslon garamond;
+}
+
+.footer {
+  float: left;
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+  font-family: arial;
+}
+
+p {
+  margin-top: auto;
+  border: 5px white;
+}
+footer {
+  background-color: lightblue;
+  width: 100%;
+  height: 15vh;
+  position: absolute;
+  bottom: 0px;
+}
+.li {
+  text-decoration: underline;
+}
+
+#contact {
+  text-decoration: underline;
+}
